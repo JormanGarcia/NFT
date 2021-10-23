@@ -1,0 +1,30 @@
+.footer--link {
+  color: white;
+  position: relative;
+  cursor: pointer;
+  font-size: 12px;
+  white-space: nowrap;
+  width: auto !important;
+
+  &:hover {
+    color: #ff0099;
+  }
+
+  &::after {
+    content: "";
+    width: 20px;
+    height: 2px;
+    background-color: #ff0099;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 20px;
+    width: 100%;
+    visibility: hidden;
+  }
+
+  &:hover::after {
+    visibility: visible;
+  }
+}

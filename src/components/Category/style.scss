@@ -1,0 +1,15 @@
+.category {
+  border: 1px solid rgba(365, 365, 365, 0.06);
+  color: white;
+  padding: 10px 25px;
+  border-radius: 40px;
+  cursor: pointer;
+
+  &:hover {
+    background: #ff0099;
+  }
+
+  &.active {
+    background: #ff0099;
+  }
+}

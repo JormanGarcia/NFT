@@ -1,0 +1,37 @@
+.navbar {
+  background: #212121;
+  color: white;
+
+  .hstack {
+    max-width: 700px;
+    width: 80%;
+  }
+
+  .navbar--logo {
+    font-weight: 800;
+    color: white;
+  }
+
+  .navbar--searchbar {
+    background-color: rgba(365, 365, 365, 0.06) !important;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 7.29px;
+    max-width: 500px !important;
+    width: 100% !important;
+    color: white;
+  }
+
+  &::placeholder {
+    color: rgba(365, 365, 365, 0.54);
+  }
+
+  .navbar--link {
+    color: white;
+    opacity: 0.72;
+
+    &:hover {
+      color: #ff0099;
+    }
+  }
+}

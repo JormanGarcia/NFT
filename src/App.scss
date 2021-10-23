@@ -1,0 +1,55 @@
+$btn-padding-y: 14px;
+$btn-padding-x: 26px;
+$btn-font-size: 12px;
+$btn-border-radius: 8px;
+
+$input-focus-border-color: #ff0099;
+
+.btn {
+  color: white !important;
+
+  &:hover {
+    color: #72144c !important;
+    box-shadow: 0px 10px 30px #c20b798f !important;
+  }
+
+  .icon-text {
+    margin-left: 10px !important;
+  }
+}
+
+$primary: #ff0099;
+
+a {
+  text-decoration: none !important;
+  cursor: pointer !important;
+}
+
+body {
+  background: radial-gradient(circle farthest-side at top, #43122f, #180811);
+  background-repeat: no-repeat;
+}
+
+.main {
+  min-height: 100vh;
+  margin: 0 40px;
+}
+
+.btn-rounded {
+  border-radius: 50% !important;
+  padding: 0px !important;
+  width: 44px;
+  height: 44px;
+  border: 1px solid rgba(255, 255, 255, 0.425) !important;
+  font-size: 18px !important;
+  color: rgba(255, 255, 255, 0.425) !important;
+  display: flex;
+
+  &:hover {
+    background: $primary;
+    box-shadow: none !important;
+    color: white !important;
+  }
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";

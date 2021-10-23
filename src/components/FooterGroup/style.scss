@@ -1,0 +1,14 @@
+.footer--group {
+  width: auto !important;
+
+  .footer-group--title {
+    color: white;
+    font-size: 14px;
+  }
+
+  .footer--groups-links {
+    display: inline-block;
+    flex-direction: column;
+    width: auto !important;
+  }
+}

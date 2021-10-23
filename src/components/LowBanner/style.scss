@@ -1,0 +1,50 @@
+.low-banner--container {
+  width: 100%;
+  height: 100px;
+  border-radius: 20px;
+  background-position-y: center;
+  background-position-x: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  padding: 50px;
+  align-items: center;
+
+  .logo {
+    display: flex;
+    height: 40px !important;
+    width: 40px !important;
+  }
+
+  .left {
+    color: white;
+
+    svg {
+      width: 20px;
+      font-size: 20px;
+    }
+
+    span {
+      font-size: 14px;
+    }
+
+    .searcher {
+      color: #ff0099;
+      position: relative;
+      transform: translateY(-2px);
+
+      &::after {
+        content: "";
+        width: 20px;
+        height: 2px;
+        background-color: #ff0099;
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin: auto;
+        top: 25px;
+        width: 100%;
+      }
+    }
+  }
+}

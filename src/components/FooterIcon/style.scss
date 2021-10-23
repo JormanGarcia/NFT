@@ -1,0 +1,17 @@
+.footer--icon {
+  padding: 10px 14px;
+  border-radius: 8px;
+  color: white;
+  background: #2f2f2f;
+
+  box-sizing: border-box;
+
+  &:hover {
+    background: #ff0099;
+    cursor: pointer;
+  }
+  svg {
+    height: 15px;
+    width: 15px;
+  }
+}
