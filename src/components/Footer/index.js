@@ -82,9 +82,6 @@ export const Footer = () => {
       <div class="footer--foot">
         <div>
           <span class="copyrigth">Copyright © 2020, NFT</span>
-          <span></span>
-          <span></span>
-          <span></span>
           <div class="terms">
             <p class="mr-4">Terms of Service</p>
             <p>Privacy Policy</p>
